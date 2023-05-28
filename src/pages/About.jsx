@@ -99,17 +99,17 @@ function About() {
       <div className="about__wrapper" data-aos="fade-down" data-aos-delay="50">
         <div className="about__left playfair">
           I'm a highly motivated software engineer with a strong passion for
-          website development.
+          website development and design.
         </div>
         <div className="about__right lato">
-          Currently employed as a software engineer at Canva, I work on
-          extremely difficult engineering problems every day in a team
-          consisting of some of the most talented and experienced software
-          engineers.
+          I'm passionate about not only creating websites, but working on
+          solving complex problems of which require a great amount of logical &
+          cognitive depth.
           <br />
           <br />
-          Continuously working towards improving my knowledge and skills to
-          develop technologies that contribute to the betterment of society.
+          Continuously working towards improving my technical expertise to
+          develop applications that contribute to the betterment of society and
+          harbour great user experience.
         </div>
       </div>
       <img id="clouds" src={Clouds} />

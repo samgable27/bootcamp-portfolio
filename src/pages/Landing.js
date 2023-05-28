@@ -9,23 +9,22 @@ import * as THREE from "three";
 
 const about = [
   "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
+  "CSS3 (+ SCSS, BEM)",
+  "JavaScript (ES6+)",
   "TypeScript",
-  "GitHub",
+  "React (+ hooks)",
+  "NextJs",
+  "Git",
   "NPM",
   "Yarn",
   "ThreeJS",
+  "Material-UI",
   "Context",
-  "React",
   "Redux",
-  "State Management",
-  "Vue",
-  "AWS",
-  "CSS frameworks",
-  "Web Widgets",
-  "Wordpress",
+  "Redux Toolkit",
+  "RTK Query",
+  "Zustand",
+  "Firebase v9",
 ];
 
 function randomSkill() {
@@ -99,10 +98,7 @@ export default function Landing() {
     <div id="landing" className="container" data-aos="fade-in">
       <div className="landing__text-container">
         <AnimatedHeader headerText={"Hey,"} className={"landing__header"} />
-        <AnimatedHeader
-          headerText={"I'm David"}
-          className={"landing__header"}
-        />
+        <AnimatedHeader headerText={"I'm Sam"} className={"landing__header"} />
         <AnimatedHeader
           headerText={"Junior Developer."}
           className={"landing__sub-header"}
@@ -111,10 +107,18 @@ export default function Landing() {
           Frontend Developer / Frontend Software Engineer
         </p>
         <div className="landing__iconscontainer">
-          <a target="_blank" rel="no-refferer" href="/">
+          <a
+            target="_blank"
+            rel="no-refferer"
+            href="https://github.com/samgable27"
+          >
             <img src={gitHubIcon} alt="gitHubIcon" />
           </a>
-          <a target="_blank" rel="no-refferer" href="/">
+          <a
+            target="_blank"
+            rel="no-refferer"
+            href="https://www.linkedin.com/in/sam-gable-a2058a108/"
+          >
             <img src={linkedinIcon} alt="linkedinIcon" />
           </a>
           <a target="_blank" rel="no-refferer" href="/">

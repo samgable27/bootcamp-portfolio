@@ -13,10 +13,12 @@ const Footer = () => {
       </a>
       <div className="footer__link--wrapper">
         <div>
-          <a href="">Github</a>
+          <a href="https://github.com/samgable27">Github</a>
         </div>
         <div>
-          <a href="">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/sam-gable-a2058a108/">
+            LinkedIn
+          </a>
         </div>
         <div>
           <a href="">Email</a>
@@ -25,7 +27,7 @@ const Footer = () => {
           <a href="">Resume</a>
         </div>
       </div>
-      <div>Copyright &copy; 2022 David Bragg</div>
+      <div>Copyright &copy; 2022 Sam Gable</div>
     </div>
   );
 };
