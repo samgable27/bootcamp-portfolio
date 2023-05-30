@@ -71,7 +71,7 @@ const Resume = () => {
                 </div>
                 <div>Bachelor of Liberal Arts (honours) in Journalism</div>
               </div>
-              <div className="resume__job--date">2017 - 2019</div>
+              <div className="resume__job--date">2015 - 2019</div>
             </div>
           </div>
         </div>
