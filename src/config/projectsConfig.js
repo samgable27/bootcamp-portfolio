@@ -18,12 +18,12 @@ import EcommerceThirdImage from "../assets/project-images/ecommerce/ecommerce-ph
 
 const projectsConfig = [
   {
-    title: "NFT Marketplace",
+    title: "Ultraverse NFT Marketplace",
     type: "Web App",
     description:
-      "1Fair Work, Building & Construction needed a better faster, less labor intensive way of providing advice to people on site. Feel created a choose your own adventure style scenario based app which allows people to quickly navigate through real life scenarios in order to get workplace rights and responsibilities advice on a number of topics, instantly.",
-    liveLink: "https://nft-place.web.app/",
-    githubLink: "",
+      "Frontend web application offering users an array of NFTs divided into categories like 'Hot Collections', 'New Items', and 'Top Sellers'. The application showcases dynamic routing, displaying relevant data depending on the selected NFT or Author, and sophisticated state logic encapsulated in reusable components managed by Redux Toolkit. The application was crafted using React and JavaScript, demonstrating a commitment to utilizing modern, efficient technologies.",
+    liveLink: "https://sam-internship.vercel.app/",
+    githubLink: "https://github.com/samgable27/sam-internship",
     coverImage: NftCoverImage,
     topImage: NftFrontImage,
     firstImage: NftFirstImage,

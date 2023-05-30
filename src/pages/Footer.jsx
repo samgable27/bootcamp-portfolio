@@ -1,6 +1,8 @@
 import React from "react";
-import FooterLogo from "../assets/footer-logo.svg";
+import FooterLogo from "../assets/sg-logo.png";
 import { MdOutlineArrowUpward } from "react-icons/md";
+import resume from "..//../src/assets/SamGableResume.pdf";
+import "../styles.css";
 
 const Footer = () => {
   return (
@@ -13,18 +15,25 @@ const Footer = () => {
       </a>
       <div className="footer__link--wrapper">
         <div>
-          <a href="https://github.com/samgable27">Github</a>
+          <a href="https://github.com/samgable27" target="_blank">
+            Github
+          </a>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/sam-gable-a2058a108/">
+          <a
+            href="https://www.linkedin.com/in/sam-gable-a2058a108/"
+            target="_blank"
+          >
             LinkedIn
           </a>
         </div>
         <div>
-          <a href="">Email</a>
+          <a href="mailto:samgabledev@gmail.com">Email</a>
         </div>
         <div>
-          <a href="">Resume</a>
+          <a href={resume} target="_blank">
+            Resume
+          </a>
         </div>
       </div>
       <div>Copyright &copy; 2022 Sam Gable</div>

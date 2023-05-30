@@ -7,6 +7,7 @@ import {
   SiSass,
   SiTypescript,
   SiRedux,
+  SiNextdotjs,
 } from "react-icons/si";
 
 export const skillsConfig = [
@@ -46,8 +47,8 @@ export const skillsConfig = [
     color: "rgb(246,130,13)",
   },
   {
-    icon: <SiSass />,
-    text: "Sass",
-    color: "rgb(204, 102, 153)",
+    icon: <SiNextdotjs />,
+    text: "NextJs",
+    color: "rgb(0, 0, 0)",
   },
 ];
