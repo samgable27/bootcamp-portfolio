@@ -4,11 +4,11 @@ import NftFirstImage from "../assets/project-images/NFT/nft-desktop.png";
 import NftSecondImage from "../assets/project-images/NFT/nft-phones-1.jpg";
 import NftThirdImage from "../assets/project-images/NFT/nft-phones-2.jpg";
 
-import TreactCoverImage from "../assets/project-images/treact/treact-cover.jpg";
-import TreactFrontImage from "../assets/project-images/treact/treact-front.png";
-import TreactFirstImage from "../assets/project-images/treact/treact-desktop.png";
-import TreactSecondImage from "../assets/project-images/treact/treact-phones-1.jpg";
-import TreactThirdImage from "../assets/project-images/treact/treact-phones-2.png";
+import SummaristCoverImg from "../assets/project-images/summarist/summarist-cover.png";
+import SummaristFrontImg from "../assets/project-images/summarist/summarist-front.png";
+import SummaristFirstImg from "../assets/project-images/summarist/summarist-desktop.png";
+import SummaristSecondImg from "../assets/project-images/summarist/summarist-phones-1.png";
+import SummaristThirdImg from "../assets/project-images/summarist/summarist-phones-2.png";
 
 import EcommerceCover from "../assets/project-images/ecommerce/ecommerce-cover.png";
 import EcommerceFrontImage from "../assets/project-images/ecommerce/ecommerce-front.png";
@@ -31,25 +31,25 @@ const projectsConfig = [
     thirdImage: NftThirdImage,
   },
   {
-    title: "Treact",
+    title: "Summarist",
     type: "Web App",
     description:
-      "2Fair Work, Building & Construction needed a better faster, less labor intensive way of providing advice to people on site. Feel created a choose your own adventure style scenario based app which allows people to quickly navigate through real life scenarios in order to get workplace rights and responsibilities advice on a number of topics, instantly.",
-    liveLink: "https://jonathan6242.github.io/treact/",
-    githubLink: "https://jonathan6242.github.io/treact/",
-    coverImage: TreactCoverImage,
-    topImage: TreactFrontImage,
-    firstImage: TreactFirstImage,
-    secondImage: TreactSecondImage,
-    thirdImage: TreactThirdImage,
+      "A comprehensive full-stack web application, serving as a digital platform for users to explore an extensive collection of self-help books. The platform's salient features include user authentication for login/logout, the facility to subscribe for either monthly or yearly payment plans, and the capacity for users to personalize their libraries by adding books of their choice, with both reading and audiobook options available.",
+    liveLink: "https://virtualinternshipv2-1.vercel.app/",
+    githubLink: "https://github.com/samgable27/virtualinternshipv2.1/",
+    coverImage: SummaristCoverImg,
+    topImage: SummaristFrontImg,
+    firstImage: SummaristFirstImg,
+    secondImage: SummaristSecondImg,
+    thirdImage: SummaristThirdImg,
   },
   {
     title: "React Ecommerce",
     type: "Web App",
     description:
-      "3air Work, Building & Construction needed a better faster, less labor intensive way of providing advice to people on site. Feel created a choose your own adventure style scenario based app which allows people to quickly navigate through real life scenarios in order to get workplace rights and responsibilities advice on a number of topics, instantly.",
-    liveLink: "",
-    githubLink: "",
+      "React-based E-Commerce web application designed for users to peruse a diverse collection of books. The application features dynamic routing, 'Add to Cart' and 'Remove from Cart' functionalities for an intuitive shopping experience. The technology stack incorporated React, JavaScript, and vanilla CSS, reflecting a commitment to create a user-friendly, aesthetically pleasing interface.",
+    liveLink: "https://library-react-six.vercel.app/",
+    githubLink: "https://github.com/samgable27/library-react/",
     coverImage: EcommerceCover,
     topImage: EcommerceFrontImage,
     firstImage: EcommerceFirstImage,
