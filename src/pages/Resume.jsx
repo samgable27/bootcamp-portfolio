@@ -30,7 +30,12 @@ const Resume = () => {
             <div className="resume__contact--info">
               <div>
                 <FaDownload />
-                <a className="resume__link" href={resume} target="_blank">
+                <a
+                  className="resume__link"
+                  href={resume}
+                  target="_blank"
+                  rel="no-refferer"
+                >
                   Download resume
                 </a>
               </div>
@@ -46,6 +51,7 @@ const Resume = () => {
                   className="resume__link"
                   href="https://www.linkedin.com/in/sam-gable-a2058a108/"
                   target="_blank"
+                  rel="no-refferer"
                 >
                   Linkedin
                 </a>
@@ -69,7 +75,7 @@ const Resume = () => {
                 <div className="resume__job--name">
                   University of North Texas
                 </div>
-                <div>Bachelor of Liberal Arts (honours) in Journalism</div>
+                <div>Bachelor of Arts (honors), Journalism</div>
               </div>
               <div className="resume__job--date">2015 - 2019</div>
             </div>

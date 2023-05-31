@@ -5,6 +5,7 @@ import { AnimatedHeader } from "../components/AnimateHeader";
 import { OrbitControls, Text } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useEffect, useMemo, useRef, useState } from "react";
+import resume from "..//../src/assets/SamGableResume.pdf";
 import * as THREE from "three";
 
 const about = [
@@ -121,7 +122,7 @@ export default function Landing() {
           >
             <img src={linkedinIcon} alt="linkedinIcon" />
           </a>
-          <a target="_blank" rel="no-refferer" href="/">
+          <a target="_blank" rel="no-refferer" href={resume}>
             <img src={resumeIcon} alt="resumeIcon" />
           </a>
         </div>
