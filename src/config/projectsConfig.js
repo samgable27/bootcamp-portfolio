@@ -35,7 +35,7 @@ const projectsConfig = [
     type: "Web App",
     description:
       "A comprehensive full-stack web application, serving as a digital platform for users to explore an extensive collection of self-help books. The platform's salient features include user authentication for login/logout, the facility to subscribe for either monthly or yearly payment plans, and the capacity for users to personalize their libraries by adding books of their choice, with both reading and audiobook options available.",
-    liveLink: "https://virtualinternshipv2-1.vercel.app/",
+    liveLink: "https://summaristproject.vercel.app/",
     githubLink: "https://github.com/samgable27/virtualinternshipv2.1/",
     coverImage: SummaristCoverImg,
     topImage: SummaristFrontImg,
