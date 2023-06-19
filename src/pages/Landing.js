@@ -5,7 +5,7 @@ import { AnimatedHeader } from "../components/AnimateHeader";
 import { OrbitControls, Text } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useEffect, useMemo, useRef, useState } from "react";
-import resume from "..//../src/assets/SamGableResume.pdf";
+import resume from "..//../src/assets/SamResume.pdf";
 import * as THREE from "three";
 
 const about = [
@@ -26,6 +26,8 @@ const about = [
   "RTK Query",
   "Zustand",
   "Firebase v9",
+  "NodeJS",
+  "MongoDB",
 ];
 
 function randomSkill() {
@@ -118,7 +120,7 @@ export default function Landing() {
           <a
             target="_blank"
             rel="no-refferer"
-            href="https://www.linkedin.com/in/sam-gable-a2058a108/"
+            href="https://www.linkedin.com/in/sam-gable/"
           >
             <img src={linkedinIcon} alt="linkedinIcon" />
           </a>

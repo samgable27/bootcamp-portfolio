@@ -7,7 +7,7 @@ import { experienceConfig } from "../config/resume/experienceConfig";
 import { technicalSkillsConfig } from "../config/resume/technicalSkillsConfig";
 import { transferrableSkillsConfig } from "../config/resume/transferrableSkillsConfig";
 import { AnimatedHeader } from "../components/AnimateHeader";
-import resume from "..//../src/assets/SamGableResume.pdf";
+import resume from "..//../src/assets/SamResume.pdf";
 
 const Resume = () => {
   return (
@@ -49,7 +49,7 @@ const Resume = () => {
                 <AiFillLinkedin />
                 <a
                   className="resume__link"
-                  href="https://www.linkedin.com/in/sam-gable-a2058a108/"
+                  href="https://www.linkedin.com/in/sam-gable/"
                   target="_blank"
                   rel="no-refferer"
                 >

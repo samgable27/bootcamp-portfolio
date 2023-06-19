@@ -10,5 +10,7 @@ export const technicalSkillsConfig = [
   "Redux",
   "Firebase",
   "Node.js",
+  "MongoDB",
+  "SASS",
   "Zustand",
 ];

@@ -17,7 +17,7 @@ export const experienceConfig = [
       "Our talented team of designers applies UX and UI principles strategically to enhance product revenues, augment conversion rates, and boost brand visibility while fostering customer loyalty.",
       "Our globally dispersed team fosters a culture of diversity that naturally engenders unique and innovative solutions. Each project we undertake is imbued with a distinct touch of originality, thus ensuring our clients attain a competitive edge in their respective markets.",
     ],
-    date: "Dec 2021 - Present",
+    date: "Dec 2019 - Present",
   },
   {
     name: "Frontend Developer Internship",
@@ -27,6 +27,6 @@ export const experienceConfig = [
       "Leveraged Axios for processing API requests, enabling dynamic data representation fetched from a cloud server, further improved by the introduction of skeleton loading states, pagination, and dynamic routing for seamless user experience.",
       "Employed Git version control alongside the GitHub interface to promote efficient teamwork within a virtual collaborative environment, thereby contributing to the overall team's productivity and project success.",
     ],
-    date: "Jul 2021 - Dec 2021",
+    date: "May 2019 - Nov 2019",
   },
 ];

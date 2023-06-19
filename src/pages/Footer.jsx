@@ -1,7 +1,7 @@
 import React from "react";
 import FooterLogo from "../assets/sg-logo.png";
 import { MdOutlineArrowUpward } from "react-icons/md";
-import resume from "..//../src/assets/SamGableResume.pdf";
+import resume from "..//../src/assets/SamResume.pdf";
 import "../styles.css";
 
 const Footer = () => {
@@ -20,10 +20,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <a
-            href="https://www.linkedin.com/in/sam-gable-a2058a108/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/sam-gable/" target="_blank">
             LinkedIn
           </a>
         </div>
